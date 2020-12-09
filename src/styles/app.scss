@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Texturina', serif;
+}
+
+h1,h2,h3{
+    font-weight: 400;
+    color: gray;
+}
+
+
+@import "./_song.scss";
+@import "./_player.scss";
+@import "./_library.scss";
+@import "./_nav.scss";
